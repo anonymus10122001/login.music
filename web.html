@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="web.js">
 </head>
 <body>
-    <audio controls autoplay loop>
+    <audio controls autoplay loop id="music">
         <source src="ona.mp3" type="audio/mp3">
     </audio>
         <video autoplay loop muted id="video">
@@ -48,5 +48,7 @@
         </div>
 
 </body>
-
+    <script> 
+    const $music = document.querySelector('#music').onPlay()
+    </script>
 </html>
