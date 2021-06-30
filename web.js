@@ -3,5 +3,5 @@ var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator
       $('#iframeAudio').remove()
   }
   else {
-      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+      $('#playAudio').remove()
   }
